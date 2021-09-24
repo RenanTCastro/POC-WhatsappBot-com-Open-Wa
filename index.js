@@ -20,7 +20,7 @@ app.use(cors({ origin: true }));
 
 // Controller
 const sendText = (req, res) => {
-  let number = "557799364602@c.us";
+  let number = "numero@c.us";
   let message = "Testando"
   callSendMessage(number, message)
   res.send({ status: 'Enviado mensagem!' })
